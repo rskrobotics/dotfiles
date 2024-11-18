@@ -25,6 +25,7 @@ require("lazy").setup({
 	require("plugins.lazygit"),
 	require("plugins.gitsigns"),
 	require("plugins.alpha"),
+	require("plugins.markdown"),
 
 	-- require 'plugins.bufferline',
 })
