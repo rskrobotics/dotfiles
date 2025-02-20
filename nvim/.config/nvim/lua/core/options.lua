@@ -30,7 +30,6 @@ vim.o.splitbelow = true -- Force horizontal splits to go below the current windo
 vim.o.splitright = true -- Force vertical splits to go to the right of the current window
 vim.o.swapfile = false -- Disable swapfile
 vim.o.smartindent = true -- Make indenting smarter
--- vim.o.showmode = false -- Disable mode display like -- INSERT --
 vim.o.showtabline = 0 -- Always show tabs
 vim.o.backspace = "indent,eol,start" -- Allow backspace on
 vim.o.pumheight = 10 -- Popup menu height
@@ -42,3 +41,4 @@ vim.opt.shortmess:append("c") -- Suppress ins-completion-menu messages
 vim.opt.iskeyword:append("-") -- Hyphenated words recognized by searches
 vim.opt.formatoptions:remove({ "c", "r", "o" }) -- Don't auto-wrap comments
 vim.opt.runtimepath:remove("/usr/share/vim/vimfiles") -- Separate vim plugins from neovim
+vim.opt.listchars = { eol = "↲", tab = "▸·", trail = "·", extends = ">", precedes = "<", nbsp = "␣" }
