@@ -26,7 +26,7 @@ style = "Regular"
 
 [general]
  import = [
- "~/.config/alacritty/gruvbox_dark.toml"
+ "~/.config/alacritty/gotham.toml"
 ]
 
 [debug]
@@ -35,3 +35,12 @@ log_level = "debug"
 
 # Optionally enable persistent logging for detailed logs
 persistent_logging = true
+
+[window]
+startup_mode = "Windowed"   # Options: "Windowed", "Maximized", "Fullscreen"
+opacity = 0.85              # 1.0 = opaque, 0.0 = fully transparent
+decorations = "buttonless"
+
+[window.padding]
+x = 70
+y = 70
