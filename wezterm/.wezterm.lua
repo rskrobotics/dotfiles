@@ -18,7 +18,4 @@ return {
 		top = 40,
 		bottom = 40,
 	},
-
-	-- Enable font ligatures for Fira Code's special programming symbols
-	font_ligatures = "enable",
 }
