@@ -121,11 +121,14 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+alias p10k='~/.oh-my-zsh/custom/themes/powerlevel10k/config/p10k.zsh'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 gmr() {
   cd ~/Desktop/GRIMOIRE/ && nvim .
 }
 bindkey -v
+bindkey -M viins '^R' history-incremental-search-backward
+bindkey -M vicmd '^R' history-incremental-search-backward
 
 alias ld='eza -lD'
 alias lf='eza -lF --color=always | grep -v /'
