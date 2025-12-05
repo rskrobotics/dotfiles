@@ -127,12 +127,13 @@ gmr() {
   cd ~/Desktop/GRIMOIRE/ && nvim .
 }
 bindkey -v
-bindkey -M viins '^R' history-incremental-search-backward
-bindkey -M vicmd '^R' history-incremental-search-backward
+bindkey '^R' history-incremental-search-backward
+alias l='ls -lah'
+alias ll='ls -lAh'
+alias lt='ls -lht'
 
-alias ld='eza -lD'
-alias lf='eza -lF --color=always | grep -v /'
-alias lh='eza -dl .* --group-directories-first'
-alias ll='eza -al --group-directories-first'
-alias ls='eza -alF --color=always --sort=size | grep -v /'
-alias lt='eza -al --sort=modified'
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source <(fzf --zsh)
