@@ -47,6 +47,5 @@ format = "✖ [$status]($style) "
 [character]
 success_symbol = "❯ "
 error_symbol = "❯ "
-style_success = "bold white"
-style_error = "bold red"
+vicmd_symbol = "❮ "
 

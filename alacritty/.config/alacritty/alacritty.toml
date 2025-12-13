@@ -41,6 +41,10 @@ startup_mode = "Windowed"   # Options: "Windowed", "Maximized", "Fullscreen"
 opacity = 0.85              # 1.0 = opaque, 0.0 = fully transparent
 decorations = "buttonless"
 
+[window.dimensions]
+columns = 150
+lines = 40
+
 [window.padding]
 x = 10
 y = 6
