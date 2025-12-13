@@ -1,0 +1,49 @@
+add_newline = false
+command_timeout = 800
+
+# Identity first, then context, then small meta, then prompt
+format = "$username$hostname$directory$git_branch$git_status$python$cmd_duration$status$character"
+
+[username]
+show_always = true
+style_user = "bold green"
+style_root = "bold red"
+format = "[$user]($style)@"
+
+[hostname]
+ssh_only = false
+style = "dimmed green"
+format = "[$hostname]($style): "
+
+[directory]
+style = "bold cyan"
+format = "[$path]($style) "
+truncation_length = 3
+truncate_to_repo = true
+
+[git_branch]
+style = "bold purple"
+format = "[$branch]($style) "
+
+[git_status]
+style = "dimmed yellow"
+format = "[$ahead_behind$stashed$modified$untracked]($style) "
+
+[python]
+style = "bold green"
+format = "[($virtualenv)]($style) "
+detect_folders = [".venv", "venv"]
+
+[cmd_duration]
+style = "dimmed white"
+format = "[$duration]($style) "
+
+[status]
+disabled = false
+style = "bold red"
+format = "✖ [$status]($style) "
+
+[character]
+success_symbol = "❯ "
+error_symbol = "❯ "
+
