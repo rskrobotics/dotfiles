@@ -35,6 +35,7 @@ format = "[($virtualenv)]($style) "
 detect_folders = [".venv", "venv"]
 
 [cmd_duration]
+min_time = 2000
 style = "dimmed white"
 format = "[$duration]($style) "
 
@@ -46,4 +47,6 @@ format = "✖ [$status]($style) "
 [character]
 success_symbol = "❯ "
 error_symbol = "❯ "
+style_success = "bold white"
+style_error = "bold red"
 
