@@ -2,10 +2,10 @@ local wezterm = require("wezterm")
 
 return {
 	font = wezterm.font("Hack Nerd Font"),
-	font_size = 15.0,
+	font_size = 14.0,
 
 	color_scheme = "Dracula (Official)",
-	window_background_opacity = 0.4,
+	window_background_opacity = 0.9,
 	macos_window_background_blur = 20,
 	native_macos_fullscreen_mode = true,
 
