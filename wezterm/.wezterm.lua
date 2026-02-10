@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 return {
 	font = wezterm.font("Hack Nerd Font"),
-	font_size = 14.0,
+	font_size = 16.0,
 
 	color_scheme = "Dracula (Official)",
 	window_background_opacity = 0.9,
