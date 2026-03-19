@@ -138,5 +138,5 @@ export NVM_DIR="$HOME/.nvm"
 
 source <(fzf --zsh)
 export DISABLE_INSTALLATION_CHECKS=1
-
+unsetopt BEEP LIST_BEEP HIST_BEEP
 eval "$(zoxide init zsh)"

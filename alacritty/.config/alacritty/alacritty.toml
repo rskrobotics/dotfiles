@@ -30,8 +30,7 @@ style = "Regular"
 ]
 
 [debug]
-# Set the debug log level to help identify the issue
-log_level = "debug"
+log_level = "info"
 
 # Optionally enable persistent logging for detailed logs
 persistent_logging = true
