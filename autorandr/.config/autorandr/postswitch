@@ -1,0 +1,4 @@
+#!/bin/sh
+# Reapply the wallpaper after any display profile switch (incl. hotplug),
+# since the root pixmap must be redrawn to cover the new screen geometry.
+[ -x "$HOME/.fehbg" ] && "$HOME/.fehbg"
