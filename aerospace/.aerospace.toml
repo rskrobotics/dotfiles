@@ -15,28 +15,16 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 automatically-unhide-macos-hidden-apps = false
 
 
-[[on-window-detected]]
-if.app-name-regex-substring = 'telegram'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'finder'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'discord'
-run = 'layout floating'
-
 [key-mapping]
     preset = 'qwerty'
 
 [gaps]
-inner.horizontal = 12
-inner.vertical =   12
-outer.left =       12
-outer.bottom =     12
-outer.top =        12
-outer.right =      12
+inner.horizontal = 8
+inner.vertical =   8
+outer.left =       8
+outer.bottom =     8
+outer.top =        8
+outer.right =      8
 
 [mode.main.binding]
     cmd-esc = 'mode typing'
