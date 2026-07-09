@@ -10,7 +10,7 @@
 
 2. Install TPM (Tmux Plugin Manager):
    ```bash
-   git clone https://github.com/tmux-plugins/tpm ~/.local/share/tmux/plugins/tpm
+   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
    ```
 
 3. Start tmux and install plugins:
@@ -25,4 +25,4 @@ Press `Ctrl+s r` to reload the config after making changes.
 
 ## Notes
 
-Plugins are stored in `~/.local/share/tmux/plugins/` (outside dotfiles).
+Plugins are stored in `~/.tmux/plugins/` (TPM default, outside dotfiles).

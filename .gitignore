@@ -1,1 +1,4 @@
 .DS_Store
+
+# tmux plugins live in ~/.tmux/plugins (outside the repo); never track them
+tmux/.config/tmux/plugins/
