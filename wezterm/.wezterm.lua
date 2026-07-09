@@ -5,8 +5,8 @@ return {
 	font_size = 16.0,
 
 	color_scheme = "Dracula (Official)",
-	window_background_opacity = 0.9,
-	macos_window_background_blur = 20,
+	window_background_opacity = 0.8,
+	macos_window_background_blur = 50,
 	native_macos_fullscreen_mode = true,
 
 	window_decorations = "RESIZE",
